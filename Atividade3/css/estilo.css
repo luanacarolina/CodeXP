@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEE8E8;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 512px;
+}
+.menu a{
+    color:#707070;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #DCDCDC;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .logo{
+      padding: 20px;
+   
+  }
+  nav{
+
+   display:flex;
+   flex-direction: column;
+   text-align: center;
+   
+  }
+  .banner{
+    background-image: url(../img/banner2.png);
+    width: 1200px;
+    height: 555px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    width: 1200px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 2.0;
+    background-color: white;
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 30px;
+    justify-content: space-between;
+    margin-top: 2px;
+}
+.texto p{
+    width: 664px;
+    height: 235px;
+    padding-right: 30px;
+    
+}
+h1{
+    text-align: center;
+}
+footer{
+    background-color:#D7CBEB;
+    width: 100%;
+}
+.rodape{
+  display: flex;
+  width: 1366px;
+  height:150px ;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+ 
+  
+}
+section{
+    max-width: 50%;
+    margin-top: 50px;
+}
+.imagens-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+
+
