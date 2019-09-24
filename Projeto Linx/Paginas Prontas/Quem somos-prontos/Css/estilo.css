@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(218, 165, 32, 0.78);
+    padding: 25px 0px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.sub_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav li {
+    list-style: none;
+    font-size: 18px;
+}
+
+.pesquisa {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.txt_busca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.btn_busca {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contato {
+    line-height: 1.5;
+}
+
+.localizacao {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+
+}
+
+.todo {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.deitadas{
+    display: flex;
+    justify-content: center;
+    align-items :center;
+    width: 100%;    
+}
+.direito{
+    width: 50%;
+    text-align: center;
+}
+.esquerdo{
+    width:50%;
+    text-align: center;
+}
+.persona{
+    display: flex;
+    justify-content: space-around;
+}
+.rosto {
+    text-align: center;
+}
+.larg{
+    width:1200px;
+    margin:auto;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30   px;   
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+    .foto_grupo{
+    width: 1000px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:35px;
+}
+/*Media queres Quem somos tablet*/
+        /*Quem Somos*/
+@media(max-width:1169px){
+    .container{
+        width: 768px;
+    }
+    .sub_menu{
+        padding: 20px;
+    }
+    .persona{
+        width:768px;
+        text-align: center;
+    }
+    
+}

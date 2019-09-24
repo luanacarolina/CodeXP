@@ -109,3 +109,36 @@
     height: 20px !important;
 }
 
+/*Medias Queries*/
+
+@media(max-width:1169px) {
+  
+    .container {
+        width: 720px;
+    }
+    .card{
+        width: 720px;
+ 
+}
+}
+/*Smart*/
+
+@media(max-width:768px) {   
+  
+    .container {
+        width: 350px;
+        
+
+    }
+    .card{
+        width: 350px;
+
+    }
+        .formulario_cadastro{
+            display:flex;
+            flex-direction: column;
+    
+    }
+
+
+    }
